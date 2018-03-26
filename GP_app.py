@@ -1,7 +1,4 @@
-"""
-StandAlone pyqt4
-
-"""
+# -*- coding: utf-8 -*-
 import sys
 import os
 from PyQt4 import QtCore, QtGui
