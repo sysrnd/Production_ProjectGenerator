@@ -5,9 +5,9 @@ from PyQt4 import QtCore, QtGui
 
 os.environ["PYTHONPATH"] = "C:/Users/ASUSarturo/Deroduction_ProjectGenerator"
 
-import GP_UI.GP_Main
-reload(GP_UI.GP_Main)
-from GP_UI.GP_Main import Ui_MainWindow
+import GP_UI.GP_Main_v02
+reload(GP_UI.GP_Main_v02)
+from GP_UI.GP_Main_v02 import Ui_MainWindow
 
 
 import GP_Core.GP_Bridge
