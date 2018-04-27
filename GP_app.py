@@ -7,7 +7,7 @@ os.environ["PYTHONPATH"] = "C:/Users/ASUSarturo/Deroduction_ProjectGenerator"
 
 import GP_UI.GP_Main_v02
 reload(GP_UI.GP_Main_v02)
-from GP_UI.GP_Main_v02 import Ui_MainWindow
+from GP_UI.GP_Main_v03 import Ui_MainWindow
 
 
 import GP_Core.GP_Bridge
@@ -33,6 +33,9 @@ if __name__ == "__main__":
         sys.exit(app.exec_())
     except:
         "error al intentar salir"
+
+
+
 
 
 
